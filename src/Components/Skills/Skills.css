@@ -1,0 +1,104 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-self: center;
+    gap: 70px;
+    margin: 80px 170px;
+}
+.skills-title{
+    position: relative;
+}
+.skills-title h1{
+    padding: 0px 30px;
+    font-size:60px;
+    font-weight: 600;
+}
+.skills-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.skills-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.skills-format h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.skills-format h2{
+    font-size: 28px;
+    font-weight: 500;
+    background: linear-gradient(270deg,
+        #DF8908 50.41%,
+        #4015ff 90.25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skills-format p{
+    color: #d4d4d4;
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 300px;
+}
+.skills-readmore{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.skills-format:hover{
+    border: 2px solid #4015ff;
+    background-image: linear-gradient(45deg, #373a41,#000000);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+@media(max-width:768px){
+    .skills{
+        align-items: start;
+        gap: 68px;
+        margin: 20px 70px;
+    }
+    .skills-title h1{
+        padding: 0;
+        font-size: 45px;
+    }
+    .skills-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .skills-format{gap: 20px;
+    padding: 30px;}
+    .skills-format h2{
+        font-size: 26px;
+    }
+    .skills-format p{
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 300px;
+    }
+    .skills-readmore img{
+        width: 20px;
+    }
+    .skills-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+}
