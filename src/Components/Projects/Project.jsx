@@ -13,7 +13,7 @@ const Project = () => {
         <div className="projects-container">
             {mywork.map((work,index)=>{
                 return <div key={index} className='project-format'>
-                <img key={index}src={work.w_img} alt=""></img>
+                <a href={work.w_link} target='_blank'><img key={index}src={work.w_img} alt=""></img></a>
                 <h3>{work.w_name}</h3>
                 </div>
             })}
