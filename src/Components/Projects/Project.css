@@ -66,7 +66,7 @@ transition: 0.5s;
         align-items: start;
     }
     .projects-title h1{
-        font-size: 45px;
+        font-size: 44px;
         padding: 0;
         font-weight: 400;
     }
@@ -76,7 +76,7 @@ transition: 0.5s;
     }
     .projects-container{
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 10px;
     }
     .projects-container img{
         width: 100%;
@@ -85,8 +85,15 @@ transition: 0.5s;
     .projects-showmore{
         padding: 10px 20px;
         font-size: 17px;
-        margin: 45px auto;
+        margin: 43px auto;
         cursor: pointer;
 
+    }
+    .project-format h3{
+        font-size: 17px;
+    }
+    .project-format img{
+        width: 195px;
+        height:170px;
     }
 }

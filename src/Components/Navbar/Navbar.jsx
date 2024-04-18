@@ -7,7 +7,6 @@ import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 const Navbar = () => {
 
-
   const [menu,setMenu] = useState("home");
   const menuRef = useRef();
   const openMenu=()=>{
@@ -27,7 +26,6 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset = {50} href='#about'><p onClick={()=>setMenu("about")}>About me</p></AnchorLink>{menu==="about"?<img src={underline}alt =""></img>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset = {50} href='#skills'><p onClick={()=>setMenu("skills")}>Skills & Exeperiences</p></AnchorLink>{menu==="skills"?<img src={underline}alt =""></img>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset = {50} href='#projects'><p onClick={()=>setMenu("projects")}>Projects</p></AnchorLink>{menu==="projects"?<img src={underline}alt =""></img>:<></>}</li>
-            <li><AnchorLink className='anchor-link' offset = {50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline}alt =""></img>:<></>}</li>
         </ul>
         <div className="nav-connect"><AnchorLink className='anchor-link' offset = {50} href='#contact'>Connect with me</AnchorLink></div>
     </div>

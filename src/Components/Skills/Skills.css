@@ -69,7 +69,7 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
-@media(max-width:768px){
+@media(max-width:590px){
     .skills{
         align-items: start;
         gap: 68px;
@@ -83,13 +83,20 @@
         width: 130px;
         margin-right: -20px;
     }
-    .skills-format{gap: 20px;
-    padding: 30px;}
+    .skills-format{
+        gap: 10px;
+    padding: 20px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+        padding: 20px;
+}
     .skills-format h2{
-        font-size: 26px;
+        font-size: 24px;
     }
     .skills-format p{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 30px;
         max-width: 300px;
     }
@@ -98,7 +105,7 @@
     }
     .skills-container{
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
     }
     
 }
