@@ -39,8 +39,8 @@ const mywork_data = [
     {
         w_no:6,
         w_name:"WattWatch prototype",
-        w_img:project6_img
-        // w_link:
+        w_img:project6_img,
+        w_link:"https://www.figma.com/file/5C16Dj8J9vjXTCebM5Cndq/SIH?type=design&node-id=0%3A1&mode=design&t=j71zHjpeJ7TOEwpG-1"
     },
 ]
  

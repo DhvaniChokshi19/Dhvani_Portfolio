@@ -23,8 +23,8 @@ const Footer = () => {
         </div>
         <hr></hr>
         <div className="footer-bottom">
-           <p className="footer-bottom-left">
-            Copyright Dhvani. All rights reserved. </p> 
+           {/* <p className="footer-bottom-left">
+            Copyright Dhvani. All rights reserved. </p>  */}
             <div className="footer-bottom-right">
                 <p>Term of services</p>
                 <p>Privacy Policy</p>
